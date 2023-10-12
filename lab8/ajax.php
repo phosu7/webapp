@@ -1,3 +1,3 @@
 <?php
 
-//A version of this will be provided.
+echo "Hello ".$_GET[fname]." ".$_GET[lname]."!";
