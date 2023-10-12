@@ -4,7 +4,7 @@ function getDataFromForm() {
   //Create this function.
 }
 
-function myAjax() {
+function runAjax(fname, lname) {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     //Edit this
