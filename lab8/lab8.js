@@ -11,10 +11,6 @@ function runAjax(fname, lname) {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     //Edit this
-    xhttp.open("GET", fname, true);
-    xhttp.send();
-    xhttp.open("GET", lname, true);
-    xhttp.send();
     document.getElementById("stringResponse").innerHTML = this.responseText;
     }
   xhttp.open("GET", "ajax.php", true);
