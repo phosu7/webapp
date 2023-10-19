@@ -12,7 +12,7 @@ function runAjax(fname, lname) {
   var url = "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php?" + "fname=" + fname + "&lname=" + lname;
   xhttp.onload = function() {
     //Edit this
-    if (xhttp.responseText == "string"){
+    if (xhttp.responseText.trim() == "string"){
     document.getElementById("responseString").innerHTML = this.responseText;
     }
   }
