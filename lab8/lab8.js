@@ -11,7 +11,9 @@ function runAjax(fname, lname) {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     //Edit this
-    document.getElementById("stringResponse").innerHTML = this.responseText;
+    //document.getElementById("stringResponse").innerHTML = this.responseText;
+    fname.innerHTML = this.responseText;
+    lname.innerHTML = this.responseText;
     }
   xhttp.open("GET", "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php", true);
   xhttp.send();
