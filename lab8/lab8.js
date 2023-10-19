@@ -9,7 +9,7 @@ function getDataFromForm() {
 
 function runAjax(fname, lname) {
   const xhttp = new XMLHttpRequest();
-  var url = "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php" + "fname=" + fname + "&lname=" + lname;
+  var url = "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php?" + "fname=" + fname + "&lname=" + lname;
   xhttp.onload = function() {
     //Edit this
     document.getElementById("responseString").innerHTML = this.responseText;
