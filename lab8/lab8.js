@@ -12,9 +12,8 @@ function runAjax(fname, lname) {
   xhttp.onload = function() {
     //Edit this
     document.getElementById("responseString").innerHTML = this.responseText;
-    fname.innerHTML = this.responseText;
     }
-  xhttp.open("GET", "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php?q="+fname+lname, true);
+  xhttp.open("GET", "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php", true);
   xhttp.send();
 }
 
