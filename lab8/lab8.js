@@ -14,7 +14,9 @@ function runAjax(fname, lname) {
     document.getElementById("responseString").innerHTML = this.responseText;
   }
   xhttp.open("GET", "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php?fname="+fname, true);
+  xhttp.send();
   xhttp.open("GET", "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php?lname="+lname, true);
+  xhttp.send();
   xhttp.open("GET", "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php", true);
   xhttp.send();
 }
