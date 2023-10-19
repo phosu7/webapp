@@ -13,7 +13,7 @@ function runAjax(fname, lname) {
     //Edit this
     document.getElementById("stringResponse").innerHTML = this.responseText;
     }
-  xhttp.open("GET", "ajax.php", true);
+  xhttp.open("GET", "https://myserverallaboutme.azurewebsites.net/lab8/ajax.php", true);
   xhttp.send();
 }
 
