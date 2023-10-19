@@ -1,6 +1,6 @@
 
 function getDataFromForm() {
-  alert("it!");
+  alert(fname + lname);
   //Create this function.
   var fname = document.getElementsByName(fname);
   var lname = document.getElementsByName(lname);
