@@ -4,7 +4,7 @@ function getDataFromForm() {
   //Create this function.
   var fname = document.getElementsByName("fname")[0].value;
   var lname = document.getElementsByName("lname")[0].value;
-  alert(fname);
+  alert(lname);
   runAjax(fname, lname);
 }
 
