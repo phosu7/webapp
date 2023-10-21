@@ -4,9 +4,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$db_host="10.8.0.1";        //Change this
-$db_user="4413demo";        //Change this
-$db_pass="4413demo";        //Change this
+$db_host="72.190.165.13"; //Change this
+$db_user="aktzegjruj";        //Change this
+$db_pass=">VYNwZ3jff+=ViU";        //Change this
 $db_name="z_url_set_1";     //Do not change
 
 $db_conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
