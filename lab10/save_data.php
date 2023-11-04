@@ -4,13 +4,5 @@
     
     $data = $first_name . " " . $last_name . PHP_EOL; 
     $file_path = '/home/site/data.txt';
-    $file = fopen($file_path, "a");
-    if ($file) {
-        
-        fwrite($file, $data);
-        fclose($file);
-        echo "added!"
-    } else {
-        echo "Error: file not opened for writing.";
-    }
+    file_put_contents($file_path, $data, FILE_APPEND);
 ?>
