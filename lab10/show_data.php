@@ -1,6 +1,6 @@
 <?php
        
-        $file_path = '/var/www/html/save_file/data.txt';
+        $file_path = '/home/save_file/data.txt';
         $data_lines = file($file_path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         foreach ($data_lines as $line) {
             
