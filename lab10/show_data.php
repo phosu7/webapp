@@ -11,6 +11,7 @@
             echo "<td>$first_name</td>";
             echo "<td>$last_name</td>";
             echo "</tr>";
+            echo "</br>"
         }
 
 ?>
